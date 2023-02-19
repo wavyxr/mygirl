@@ -1,0 +1,308 @@
+@font-face{
+	font-family:Plastique ;
+	src: url("Plastique.ttf");
+}
+
+.fondo{
+	background: linear-gradient(500deg, #EAF8F9,#F9EBEA);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	display: inline;
+	margin: 0;
+	padding: 0;
+	background-image:url("https://img.freepik.com/vector-gratis/fondo-vacio-textura-papel-arrugado-blanco_1017-30610.jpg?w=1380&t=st=1676775660~exp=1676776260~hmac=63738d9c9ab4421655d98a99386ed09093e6140b1b74ad6e2e3e3f0c637ea04f") ;
+	background-repeat: no-repeat;
+	background-size:cover ;
+	padding: 0;
+
+
+
+}
+
+.main #titulo{
+		color: #E4857E;
+		font-size: 250%;
+		font-family: Plastique;
+		
+		}
+
+
+.main{
+	color: beige;
+	position: absolute;
+	height: 8%;
+	width: 100%;
+	display: inline;
+	border-radius: 16px;
+	background: linear-gradient(500deg, #blue, #red);
+	border: solid darkblue px;
+	text-align: center;
+	
+}
+
+.Album__1{
+	color:red;
+	border: 1px yellow solid;
+	position: absolute;
+	display: inline;
+	height: 29%;
+	width: 49%;
+	top: 10%;
+	border-radius: 16px;
+}
+
+.Album__1 #alname{
+	font-family: Plastique;
+	font-size: 150%;
+	position: absolute;
+	top: -6%;
+	left: 31%;
+	background: black;
+	color: white;
+
+
+}
+
+.Album__1 #songs{
+	color: yellow;
+	position: absolute;
+	left: 5%;
+}
+
+.Album__1 #img__1{
+	height: 200px;
+	position: absolute;
+	top: 16%;
+	left: 40%;
+}
+
+.Album__1 #cambiar__2{
+	color: black;
+	font-size: 10px;
+}
+
+
+
+
+
+
+
+.Album__2{
+	color:blue;
+	border: 1px yellow solid;
+	position: absolute;
+	display: inline;
+	height: 29%;
+	width: 49%;
+	top: 40%;
+	border-radius: 16px;
+
+}
+
+.Album__2 #alname__2{
+	font-family: Plastique;
+	font-size: 150%;
+	position: absolute;
+	top: -7%;
+	left: 31%;
+	background: black;
+	color: white;
+
+	
+}
+
+.Album__2 #songs__2{
+	color: yellow;
+	position: absolute;
+	left: 5%;
+}
+
+.Album__2 #img__2{
+	height: 200px;
+	position: absolute;
+	top: 16%;
+	left: 40%;	
+}
+
+
+
+
+
+
+
+
+
+
+.Album__3{
+	color:blue;
+	border: 1px yellow solid;
+	position: absolute;
+	display: inline;
+	height:29%;
+	width: 49%;
+	top: 70%;
+	border-radius: 16px;
+}
+
+.Album__3 #alname__3{
+	font-family: Plastique;
+	font-size: 150%;
+	position: absolute;
+	top: -9%;
+	left:39%;
+	background: black;
+	color: white;
+
+}
+
+.Album__3 #songs__3{
+	color: yellow;
+	position: absolute;
+	left: 5%;
+}
+
+.Album__3 #img__3{
+	height: 200px;
+	position: absolute;
+	top: 17%;
+	left: 39%;
+}
+
+
+
+
+
+
+
+
+
+
+.Album__4{
+	color:blue;
+	border: 1px yellow solid;
+	position: absolute;
+	display: inline;
+	height: 25%;
+	width: 50%;
+	top: 10%;
+	left: 50%;
+	text-align: center;
+	border-radius: 16px;
+}
+
+
+.Album__4 #alname__4{
+	font-family: Plastique;
+	font-size: 150%;
+	position: absolute;
+	top: -15%;
+	left:39%;
+	background: black;
+	color: white;
+}
+
+.Album__4 #songs__4{
+	color: yellow;
+	text-align: left;
+	position: absolute;
+	left: 5%;
+
+}
+
+.Album__4 #img__4{
+	height: 180px;
+	position: absolute;
+	top: 19%;
+	left: 33%;
+}
+
+
+
+
+
+
+
+
+.Album__5{
+	color:blue;
+	border: 1px yellow solid;
+	position: absolute;
+	display: inline;
+	height: 42%;
+	width: 50%;
+	top: 36%;
+	left: 50%;
+	text-align: center;
+	border-radius: 16px;
+}
+
+
+.Album__5 #alname__5{
+	font-family: Plastique;
+	font-size: 150%;
+	
+	display: inline;
+	position: absolute;
+	text-align: center ;
+	border: 1px black; solid;
+	left: 38%;
+	top: -10%;
+	background: black;
+	color: white;
+
+	
+}
+
+.Album__5 #songs__5{
+	color: yellow;
+	text-align: left;
+	position: absolute;
+	left: 5%;
+}
+
+.Album__5 #extras{
+	color: red;
+	font-size: 20px;
+
+
+
+
+}
+
+.Album__5 #img__5{
+	height: 65%;
+	position: absolute;
+	top: 15%;
+	left: 30%;
+}
+
+
+
+a{
+	color: yellow;
+	font-family: 'Gloock', serif;	
+	}
+
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+*{
+	font-family: 'Gloock', serif;
+	font-size: 14px;
+}
+
+li{
+	margin: 0;
+	padding: 0;
+	background: green;
+	display: inline-block; 
+ 	white-space: nowrap; 
+
+ }
+ strong{
+ 	color: black;	
+ }
